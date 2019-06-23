@@ -1,5 +1,4 @@
 .App {
-
     // Animation code from https://codepen.io/P1N2O/pen/pyBNzX modified slightly.
     background: linear-gradient(-45deg, #00F260, #2F80ED, #f7b733 );
 	background-size: 400% 400%;
@@ -53,18 +52,4 @@ a {
 	}
 }
 
-.zoom .fas {
-    transition: 0.3s ease;
-    &:hover {
-		font-size: 6em;
-		color: darken($off-white, 20%);
-    }
-}
 
-.zoom .fab {
-    transition: 0.3s ease;
-    &:hover {
-		font-size: 6em;
-		color: darken($off-white, 20%);
-    }
-}

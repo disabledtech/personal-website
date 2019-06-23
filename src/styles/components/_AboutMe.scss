@@ -1,0 +1,23 @@
+.zoom {
+    margin: 0 $l-size;
+    transition: 0.3s ease;    
+    &:hover {
+		font-size: $xl-size;
+		color: darken($off-white, 20%);
+    }
+
+    @media (min-width: $desktop-breakpoint) {
+        margin: $m-size;   
+    }
+}
+
+.about-me {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @media (min-width: $desktop-breakpoint) {
+        flex-direction: row;       
+    }
+}
