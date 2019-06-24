@@ -3,9 +3,9 @@ import React from 'react';
 const Project = ({name,  url}) => {
 
     return (
-        <>
-            <p>{name}, {url}</p>
-        </>
+                    <div className="card">
+                        <p>{name}</p>
+                    </div>
     )
 }
 

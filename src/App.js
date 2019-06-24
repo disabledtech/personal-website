@@ -10,6 +10,8 @@ function App() {
       <div className="content-container">
         <Header />
         <AboutMe />
+        <Projects />
+        
       </div>
     </div>
   );
