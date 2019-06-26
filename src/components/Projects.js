@@ -4,7 +4,7 @@ import Project from './Project';
 const Projects = () => {
 
     const [rotateArrow, setRotateArrow] = useState('fas fa-arrow-circle-right arrow');
-    const [displayProjects, setDisplayProjects] = useState(false);
+    const [displayProjects, setDisplayProjects] = useState(true);
 
     const projects = [{
         name: 'Expensify',
@@ -23,7 +23,7 @@ const Projects = () => {
 
     return (
         <div className="projects">
-            <h1 className="projects__title" onClick={() => handleTitleCLick()}>Projects <i class={rotateArrow}></i></h1>
+            <h1 className="projects__title" onClick={() => handleTitleCLick()}>Projects <i className={rotateArrow}></i></h1>
             <div className={displayProjects ? 'projects__fade-in' : 'projects__fade-out'}>
                 { displayProjects && projects.map((project, i) => <Project {...project} key={i} />)}
             </div>
