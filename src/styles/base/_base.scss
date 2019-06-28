@@ -5,16 +5,17 @@ body {
 
 html {
     // Animation code from https://codepen.io/P1N2O/pen/pyBNzX modified slightly.
-	background: linear-gradient(-45deg, #00F260, #2F80ED, #f7b733 ) fixed;
+	background: linear-gradient(-45deg, #2980B9, #6DD5FA, #FFFFFF) fixed;
 	background-size: 400% 400%;
-	color: #FAFAFA;
+	color: $text-grey;
 	font-family: 'Roboto', sans-serif;
     height: 100vh;
 	justify-content: center;
 	width: 100wh;	
-	-webkit-animation: Gradient 15s ease infinite;
-	-moz-animation: Gradient 15s ease infinite;
-	animation: Gradient 15s ease infinite;
+	-webkit-animation: Gradient 10s ease infinite;
+	-moz-animation: Gradient 10s ease infinite;
+	animation: Gradient 10s ease infinite;
+	--mdc-theme-primary: #212121;
 }
 
 

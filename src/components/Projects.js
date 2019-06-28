@@ -4,15 +4,19 @@ import Project from './Project';
 const Projects = () => {
 
     const [rotateArrow, setRotateArrow] = useState('fas fa-arrow-circle-right arrow');
-    const [displayProjects, setDisplayProjects] = useState(true);
+    const [displayProjects, setDisplayProjects] = useState(false);
 
     const projects = [{
         name: 'Expensify',
-        url: 'https://expensify-disabledtech.herokuapp.com/'
+        about: 'An app for tracking your expenses. Features a login system which uses your Google account and a Firebase database so your data is always available quickly.',
+        website: 'https://expensify-disabledtech.herokuapp.com/',
+        github: 'https://github.com/disabledtech/expensify_app'
     },
     {
         name: 'Indecision',
-        url: 'https://indecision-disabledtech.herokuapp.com/'
+        about: 'Input your TODO list and let chance decide what you should do next.',
+        website: 'https://indecision-disabledtech.herokuapp.com/',
+        github: 'https://github.com/disabledtech/indecision-app'
     }
 ]
     const handleTitleCLick = () => {
