@@ -17,7 +17,7 @@ function AboutMe() {
                 </i>
             </a>
             
-            <a  href="placeholder"
+            <a  href="mailto:taylor@taylordanielson.ca"
                 target="_blank" 
                 rel="noopener noreferrer"
             >

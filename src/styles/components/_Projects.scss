@@ -1,7 +1,7 @@
 .projects {
-	align-items: center;
-	display: flex;
-	flex-direction: column;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     opacity: 1;
 }
 
@@ -11,31 +11,32 @@
     font-weight: 300;
     margin-bottom: 1em;
     text-align: center;
-    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
-                 0px -5px 35px rgba(255,255,255,0.3);
+    text-decoration: underline;
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2), 0px -5px 35px rgba(255, 255, 255, 0.3);
 }
 
 .rotate {
     transform: rotate(90deg);
-  }
+}
 
 .arrow {
-    transition: all .2s ease-in-out;;
+    transition: all .2s ease-in-out;
+    ;
 }
 
 .projects__fade-in {
-	opacity: 1;
-	animation-name: fadeInOpacity;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-	animation-duration: .3s;
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: .3s;
 }
 
 @keyframes fadeInOpacity {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }

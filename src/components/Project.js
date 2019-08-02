@@ -6,13 +6,14 @@ import Card, {
   } from "@material/react-card";
   import Button from '@material/react-button';
 
-const Project = ({name, about, github, website}) => {
+const Project = ({name, about, github, website, tech}) => {
 
     return (
     <Card className="project">
       <CardPrimaryContent>
         <h1 className="project__title">{name}</h1>
         <p className="project__about">{about}</p>
+        <p className="project__tech">{tech}</p>
       </CardPrimaryContent>
       <CardActions>
         <CardActionButtons className="project_links">
